@@ -86,11 +86,6 @@ li:not(:first-child):before {
     opacity: 0.5;
 }
 
-img {
-    max-width: 40%;
-    height: auto;
-  }
-
   form {
     width: 100%;
   padding: 12px 20px;
@@ -99,3 +94,29 @@ img {
   box-sizing: border-box;
   }
 
+  input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    opacity: 0.5;
+  }
+
+  input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+  }
+
+  .message {
+    height: 120px;
+  }
+
+  img {
+    float: left;
+    padding: 20px;
+    border-color: #777777;
+  }
