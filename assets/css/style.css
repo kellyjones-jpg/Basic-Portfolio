@@ -159,7 +159,7 @@ li:not(:first-child):before {
   right: 20px;
   background-color: #4aaaa5;
   color: white;
-  padding-left: 70px;
-  padding-right: 70px;
+  padding-left: 50px;
+  padding-right: 50px;
   right: 60px;
 }
