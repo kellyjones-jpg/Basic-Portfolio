@@ -93,7 +93,7 @@ li:not(:first-child):before {
 }
 
   form {
-    width: 100%;
+  width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
@@ -121,7 +121,7 @@ li:not(:first-child):before {
     height: 120px;
   }
 
-  img {
+  .profile {
     float: left;
     padding: 20px;
     border-color: #777777;
@@ -131,3 +131,35 @@ li:not(:first-child):before {
     width: 100%;
   }
 
+  .img1 {
+    float: left;
+    border-color:#777777;
+    padding: 20px;
+  }
+
+  .img2 {
+    float: none;
+    border-color:#777777;
+    padding: 20px;
+  }
+
+  .img3 {
+    float: left;
+    border-color:#777777;
+    padding: 20px;
+  }
+
+.imgcontainer {
+  position: relative;
+}
+
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: #4aaaa5;
+  color: white;
+  padding-left: 70px;
+  padding-right: 70px;
+  right: 60px;
+}
