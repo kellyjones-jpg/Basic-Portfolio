@@ -138,12 +138,13 @@ li:not(:first-child):before {
   }
 
   .img2 {
-    float: none;
+    float: left;
     border-color:#777777;
     padding: 20px;
   }
 
   .img3 {
+    clear: both;
     float: left;
     border-color:#777777;
     padding: 20px;
@@ -154,12 +155,13 @@ li:not(:first-child):before {
 }
 
 .text-block {
-  position: absolute;
-  bottom: 20px;
-  right: 20px;
+  position: relative; 
+  bottom: 50px;
   background-color: #4aaaa5;
   color: white;
   padding-left: 50px;
   padding-right: 50px;
-  right: 60px;
+  height: 40px;
+  text-align: center;
+  font-weight: bold;
 }
